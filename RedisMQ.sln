@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8D77202E-0FB1-4CA2-9B40-04BADC93A846}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisMQ", "src\RedisMQ\RedisMQ.csproj", "{DC3EFE96-FE8E-4608-8C1D-2CDCCF06AAFD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A0612CC5-B9E6-4B77-AD34-00807C5F4569}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisMQ.Functional", "test\RedisMQ.Functional\RedisMQ.Functional.csproj", "{7F481413-D220-40FA-87D5-9B2A7AEFA1B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisMQ.Unit", "test\RedisMQ.Unit\RedisMQ.Unit.csproj", "{7FB64C76-48AD-48C0-9F7E-AC5C7829B9D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DC3EFE96-FE8E-4608-8C1D-2CDCCF06AAFD} = {8D77202E-0FB1-4CA2-9B40-04BADC93A846}
+		{7F481413-D220-40FA-87D5-9B2A7AEFA1B5} = {A0612CC5-B9E6-4B77-AD34-00807C5F4569}
+		{7FB64C76-48AD-48C0-9F7E-AC5C7829B9D8} = {A0612CC5-B9E6-4B77-AD34-00807C5F4569}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC3EFE96-FE8E-4608-8C1D-2CDCCF06AAFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC3EFE96-FE8E-4608-8C1D-2CDCCF06AAFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC3EFE96-FE8E-4608-8C1D-2CDCCF06AAFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC3EFE96-FE8E-4608-8C1D-2CDCCF06AAFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F481413-D220-40FA-87D5-9B2A7AEFA1B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F481413-D220-40FA-87D5-9B2A7AEFA1B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F481413-D220-40FA-87D5-9B2A7AEFA1B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F481413-D220-40FA-87D5-9B2A7AEFA1B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FB64C76-48AD-48C0-9F7E-AC5C7829B9D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FB64C76-48AD-48C0-9F7E-AC5C7829B9D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FB64C76-48AD-48C0-9F7E-AC5C7829B9D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FB64C76-48AD-48C0-9F7E-AC5C7829B9D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

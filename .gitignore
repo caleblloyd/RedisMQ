@@ -1,0 +1,9 @@
+# .NET
+bin
+obj
+
+# JetBrains Rider
+.idea
+
+# Visual Studio Code
+.vscode
